@@ -213,6 +213,14 @@ img {
     margin-left: 940px;
     margin-top: 390px;
 }
+.gram,
+.number,
+.naii,
+.maill
+{
+    color: white;
+    text-decoration: none;
+}
 @media screen and (max-device-width: 640px) {
 
     nav ul li a {
