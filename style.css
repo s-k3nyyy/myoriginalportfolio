@@ -272,10 +272,10 @@ img {
     }
 
     .para {
-        width: 140vw;
-        margin-left: 1px;
+        width: 150vw;
+        margin-left: 10px;
         margin-top: 0px;
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .serv {
