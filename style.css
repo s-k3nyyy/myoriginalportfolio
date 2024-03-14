@@ -302,8 +302,8 @@ img {
     
 
     .itexp {
-        font-size: 20px;
-        margin-left: 40px;
+        font-size: 10vw;
+        margin-left: 0px;
     }
 
     .cont {
@@ -316,6 +316,6 @@ img {
 
     .contactt div {
         margin-left: 100px;
-        font-size: 06vw;
+        font-size: 7vw;
     }
 }
