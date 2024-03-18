@@ -154,8 +154,7 @@
         width: 900px;
         margin-left: 1px;
         margin-top: 0px;
-    
-    
+
     }
     
     .mee {
@@ -206,6 +205,7 @@
     
     }
     
+    
     .servicess div {
         margin-left: 20px;
     }
@@ -234,10 +234,101 @@
     
 }
 
-@media screen and (max-device-width: 650px)  {
+@media screen and (max-width: 650px)  {
     body{
         background-color: black;
         color: rgb(255, 255, 255)
+    }
+    .serv {
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(100, 247, 100);
+        margin-left: 340px;
+        margin-top: 390px;
+    
+    }
+    
+    .front,
+    .back,
+    .it {
+        width: 280px;
+    }
+    
+    .frontendd div {
+        background: rgba(73, 73, 73, 0.37);
+        display: inline-block;
+        margin-left: 20px;
+        border-radius: 10px;
+        padding-left: 100px;
+        padding-top: 20px;
+        cursor: pointer;
+        transition: 0.8s;
+    }
+    
+    .frontendd div:hover {
+        background-color: rgba(42, 224, 97, 0.774);
+    
+    }
+    
+    
+    .servicess div {
+        margin-left: 20px;
+    }
+    .abouttt:hover {
+        opacity: 0.3px;
+        color: rgb(238, 228, 228);
+        transition: 0.9s;
+        box-shadow: 2px 3px 2px rgb(90, 243, 85);
+        margin-bottom: 30px;
+    }
+    
+    .about:active {
+        color: brown;
+    }
+    
+    .services:hover {
+        opacity: 0.3px;
+        color: rgb(255, 240, 240);
+        transition: 0.9s;
+        box-shadow: 2px 3px 2px rgb(90, 243, 85);
+        margin-bottom: 30px;
+    }
+    
+    .services:active {
+        color: brown;
+    }
+    
+    .portfolio:hover {
+        opacity: 0.3px;
+        color: rgb(255, 255, 255);
+        transition: 0.9s;
+        box-shadow: 2px 3px 2px rgb(90, 243, 85);
+        margin-bottom: 30px;
+    }
+    
+    .portfolio:active {
+        color: brown;
+    }
+    
+    .contact:hover {
+        opacity: 0.3px;
+        color: rgb(255, 239, 239);
+        transition: 0.9s;
+        box-shadow: 2px 3px 2px rgb(90, 243, 85);
+        margin-bottom: 30px;
+    }
+    
+    .contact:active {
+        color: brown;
+    }
+    .home:hover {
+        opacity: 0.3px;
+        color: rgb(238, 228, 228);
+        transition: 0.9s;
+        box-shadow: 2px 3px 2px rgb(90, 243, 85);
+        margin-bottom: 30px;
+    
+    
     }
 
     nav ul li a {
